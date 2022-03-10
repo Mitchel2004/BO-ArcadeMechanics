@@ -1,4 +1,8 @@
 # BO Arcade Mechanics
 
-## [Onze Trello](https://trello.com/b/QaBcFMzg/info-arcade-mechanics)
-## [Retrospectives](/Retrospectives.docx)
+### [Trello](https://trello.com/b/QaBcFMzg/info-arcade-mechanics)
+### [Retrospectives](/Documents/Retrospectives.pdf)
+
+---
+
+##### Mitchel Klijn & Tim de Vries
