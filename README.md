@@ -1,6 +1,8 @@
 # BO Arcade Mechanics
 
-![Sterren Oorlog Logo](/Images/SterrenOorlog_Logo.png)
+<p align="center">
+    <img src="https://github.com/Mitchel2004/BO-ArcadeMechanics/blob/main/Images/SterrenOorlog_Logo.png?raw=true" alt="Sterren Oorlog Logo"/>
+</p>
 
 ### [Trello](https://trello.com/b/QaBcFMzg/info-arcade-mechanics)
 ### [Retrospectives](/Documents/Retrospectives.pdf)
