@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    public Rigidbody rb;
+    private Rigidbody rb;
 
     void Start()
     {
@@ -22,10 +22,6 @@ public class Movement : MonoBehaviour
         else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             transform.position += new Vector3(10, 0, 0) * Time.deltaTime;
-        }
-        else if (Input.GetKey(KeyCode.A) == false && Input.GetKey(KeyCode.D) == false && Input.GetKey(KeyCode.LeftArrow) == false && Input.GetKey(KeyCode.RightArrow) == false)
-        {
-            
         }
 
         if (Input.GetKey(KeyCode.Space) && transform.position.y <= 4)
