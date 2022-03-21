@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Script_Movement : MonoBehaviour
 {
-    private Rigidbody rb;
-    private bool check = false;
+    Rigidbody rb;
+    bool check = false;
 
     void Start()
     {

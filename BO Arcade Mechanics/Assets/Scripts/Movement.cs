@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour
 {
-    private Rigidbody rb;
+    Rigidbody rb;
 
     void Start()
     {
@@ -24,10 +24,9 @@ public class Movement : MonoBehaviour
             transform.position += new Vector3(10, 0, 0) * Time.deltaTime;
         }
 
-        if (Input.GetKey(KeyCode.Space) && transform.position.y <= 4)
+        if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= 4)
         {
             rb.constraints = RigidbodyConstraints.None;
-            rb.velocity = new Vector3(0, 10, 0);
         }
         else if (transform.position.y <= 4)
         {

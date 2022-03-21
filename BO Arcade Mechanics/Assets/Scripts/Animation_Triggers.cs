@@ -8,7 +8,7 @@ public class Animation_Triggers : MonoBehaviour
 
     void Start()
     {
-        animator = gameObject.GetComponent<Animator>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
