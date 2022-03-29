@@ -15,31 +15,25 @@ public class Animation_Triggers : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            animator.ResetTrigger("Left Up");
-            animator.ResetTrigger("Right Down");
-            animator.ResetTrigger("Right Up");
-            animator.SetTrigger("Left Down");
+            animator.CrossFade("Left Down", 0.5f);
         }
         else if (Input.GetKeyUp(KeyCode.A) || Input.GetKeyUp(KeyCode.LeftArrow))
         {
-            animator.SetTrigger("Left Up");
+            animator.CrossFade("Left Up", 0.5f);
         }
 
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
-            animator.ResetTrigger("Right Up");
-            animator.ResetTrigger("Left Down");
-            animator.ResetTrigger("Left Up");
-            animator.SetTrigger("Right Down");
+            animator.CrossFade("Right Down", 0.5f);
         }
         else if (Input.GetKeyUp(KeyCode.D) || Input.GetKeyUp(KeyCode.RightArrow))
         {
-            animator.SetTrigger("Right Up");
+            animator.CrossFade("Right Up", 0.5f);
         }
         
-        if (Input.GetKeyDown(KeyCode.Space) && transform.position.y <= 4)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            animator.SetTrigger("Jump");
+            animator.CrossFade("Jump", 0.5f);
         }
     }
 }
