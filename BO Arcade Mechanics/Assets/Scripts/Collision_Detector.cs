@@ -44,7 +44,7 @@ public class Collision_Detector : MonoBehaviour
         if (other.gameObject.tag == "HD")
         {
             //Debug.Log("Hieperrijden");
-            rb.velocity = new Vector3(0, 0, 10);
+            //rb.velocity = new Vector3(0, 0, 10);
         }
     }
 }
