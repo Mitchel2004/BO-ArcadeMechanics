@@ -6738,8 +6738,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1851312776}
   - {fileID: 331702141}
+=======
+>>>>>>> b62727c39222c2f82addb73af214219f17b7d3e8
 =======
 >>>>>>> b62727c39222c2f82addb73af214219f17b7d3e8
   - {fileID: 1926438803}
@@ -74616,7 +74619,11 @@ RectTransform:
   - {fileID: 1759801350}
   m_Father: {fileID: 182213447}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 2
+=======
+  m_RootOrder: 0
+>>>>>>> b62727c39222c2f82addb73af214219f17b7d3e8
 =======
   m_RootOrder: 0
 >>>>>>> b62727c39222c2f82addb73af214219f17b7d3e8
