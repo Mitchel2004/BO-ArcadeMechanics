@@ -1,7 +1,7 @@
 # BO Arcade Mechanics
 
 <p align="center">
-    <img src="https://github.com/Mitchel2004/BO-ArcadeMechanics/blob/main/Images/SterrenOorlog_Logo.png?raw=true" alt="Sterren Oorlog Logo"/>
+    <img src="https://github.com/Mitchel2004/BO-ArcadeMechanics/blob/main/Images/Sterren%20Oorlog%20Logo.png?raw=true" alt="Sterren Oorlog Logo"/>
 </p>
 
 ---
